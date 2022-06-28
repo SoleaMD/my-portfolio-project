@@ -23,7 +23,6 @@ p {
   font-family: "Comic Neue", cursive;
   font-weight: 600;
   margin-top: 20px;
-  text-transform: capitalize;
 }
 
 footer {
@@ -42,6 +41,10 @@ footer {
   margin-top: 70px;
 }
 
+.quote {
+  text-transform: capitalize;
+}
+
 .author {
   font-family: "Comic Neue", cursive;
   font-style: italic;
@@ -55,6 +58,35 @@ footer {
   font-family: "Comic Neue", cursive;
   font-weight: 600;
   margin-top: 15px;
+}
+
+.contact-heading {
+  font-family: "Rock Salt", cursive;
+  margin-top: 130px;
+  font-size: 60px;
+}
+
+.contact-title {
+  font-family: "Schoolbell", cursive;
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+.contact-list {
+  margin-top: 60px;
+  list-style: none;
+}
+
+.contact-option {
+  padding: 20px 10px;
+  font-family: "Comic Neue", cursive;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.contact-link {
+  text-decoration: none;
+  font-weight: 900;
 }
 
 @media (max-width: 768px) {
@@ -81,5 +113,14 @@ footer {
   }
   .books {
     font-size: 14px;
+  }
+  .contact-heading {
+    font-size: 40px;
+  }
+  .contact-title {
+    font-size: 25px;
+  }
+  .contact-option {
+    font-size: 16px;
   }
 }
