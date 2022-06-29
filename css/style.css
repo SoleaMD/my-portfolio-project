@@ -60,6 +60,8 @@ footer {
   margin-top: 15px;
 }
 
+/* Contact Page */
+
 .contact-heading {
   font-family: "Rock Salt", cursive;
   margin-top: 130px;
@@ -87,6 +89,32 @@ footer {
 .contact-link {
   text-decoration: none;
   font-weight: 900;
+}
+
+/* Projects Page*/
+
+.project-heading {
+  font-family: "Rock Salt", cursive;
+  margin-top: 130px;
+  font-size: 60px;
+}
+
+.projects-intro-info {
+  font-family: "Schoolbell", cursive;
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+.project-name {
+  font-family: "Rock Salt", cursive;
+  font-size: 20px;
+  margin-top: 70px;
+}
+
+.project-image {
+  height: auto;
+  max-width: 100%;
+  border-radius: 4px;
 }
 
 @media (max-width: 768px) {
@@ -122,5 +150,11 @@ footer {
   }
   .contact-option {
     font-size: 16px;
+  }
+  .project-heading {
+    font-size: 40px;
+  }
+  .projects-intro-info {
+    font-size: 25px;
   }
 }
