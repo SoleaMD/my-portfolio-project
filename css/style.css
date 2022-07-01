@@ -91,6 +91,10 @@ footer {
   font-weight: 900;
 }
 
+.footer-contact {
+  margin-top: 100px;
+}
+
 /* Projects Page*/
 
 .project-heading {
